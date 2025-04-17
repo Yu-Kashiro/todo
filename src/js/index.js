@@ -1,4 +1,5 @@
 import { data, registerNewTodo, appendTodoListElem } from "./todo";
+import "../css/style.css";
 
 document.addEventListener("DOMContentLoaded", () => {
   const registerButtonElem = document.getElementById("register");
@@ -11,6 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.log("Hello World!");
   console.log("Hello World!2");
+  console.log("Hello World!3");
+  console.log("Hello World!3");
+  console.log("Hello World!3");
+  console.log("Hello World!3");
   console.log("Hello World!3");
 
   // 絞り込みに入力された場合のイベント定義
